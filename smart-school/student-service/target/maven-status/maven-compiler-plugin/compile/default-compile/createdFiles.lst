@@ -1,0 +1,9 @@
+com/smartschool/student/repository/StudentRepository.class
+com/smartschool/student/dto/StudentDTO.class
+com/smartschool/student/controller/StudentController.class
+com/smartschool/student/web/GlobalExceptionHandler.class
+com/smartschool/student/service/StudentService.class
+com/smartschool/student/client/SchoolClient.class
+com/smartschool/student/model/Student.class
+com/smartschool/student/client/SchoolRemoteDTO.class
+com/smartschool/student/StudentServiceApplication.class
