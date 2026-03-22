@@ -7,6 +7,7 @@ Ollama is an open-source tool designed to run Large Language Models (LLMs) local
 - curl -fsSL https://ollama.com/install.sh | sh
 - systemctl status ollama
 - ollama run llama3
+- ollama run qwen2.5-coder
 - 127.0.0.1:11434
 
 #### List commands
