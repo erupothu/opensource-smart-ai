@@ -10,7 +10,7 @@ Ollama is an open-source tool designed to run Large Language Models (LLMs) local
 - ollama run qwen2.5-coder
 - 127.0.0.1:11434
 
-#### List commands
+#### Terminal commands
 - ollama list
 - ollama serve
 - ollama ps
@@ -26,8 +26,32 @@ Ollama is an open-source tool designed to run Large Language Models (LLMs) local
 - ollama help
 - ollama signin / signout
 - ollama -v
+- bye
 
-#### Ollama Integration with IDE
+#### Rest API Calls
+```bash
+curl http://localhost:11434/api/generate -d '{
+  "model": "llama3.1",
+  "prompt": "Why is the sky blue?"
+}'
+```
+
+```bash
+curl http://localhost:11434/api/chat -d '{
+  "model": "llama3.1",
+  "messages": [
+    { "role": "user", "content": "Hello! What is your purpose?" }
+  ]
+}'
+```
+
+#### Ollama Integration with VS code IDE
+- install ollama chat
+- install continue
+- ollama serve
+- systemctl ollama status
+- 127.0.0.1:11434
+- add chat models from you local after running the servers
 
 #### Ollama models integration with Springboot code
 
