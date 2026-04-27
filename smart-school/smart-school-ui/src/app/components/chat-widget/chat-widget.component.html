@@ -1,0 +1,26 @@
+<div class="chat-toggle">
+  <button mat-fab color="primary" (click)="toggle()" aria-label="Open AI chat">
+    <mat-icon>{{ open ? 'close' : 'chat' }}</mat-icon>
+  </button>
+</div>
+
+<div class="chat-panel" *ngIf="open">
+  <mat-card class="chat-card">
+    <mat-card-title>Assistant</mat-card-title>
+    <mat-card-content>
+      <mat-nav-list class="messages">
+        <mat-list-item *ngFor="let m of messages">
+          <div [class.user]="m.role==='user'" [class.assistant]="m.role==='assistant'">
+            {{ m.text }}
+          </div>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-card-content>
+    <mat-card-actions class="chat-actions">
+      <mat-form-field appearance="outline" class="chat-input">
+        <input matInput placeholder="Ask something..." [(ngModel)]="input" (keydown.enter)="send()" />
+      </mat-form-field>
+      <button mat-flat-button color="primary" (click)="send()" [disabled]="loading">Send</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

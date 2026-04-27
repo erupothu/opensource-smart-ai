@@ -1,0 +1,11 @@
+<h2>Schools</h2>
+<mat-nav-list *ngIf="schools?.length; else empty">
+	<mat-list-item *ngFor="let s of schools">
+		<h3 matLine>{{ s.name }}</h3>
+		<p matLine>{{ s.address }}</p>
+	</mat-list-item>
+</mat-nav-list>
+
+<ng-template #empty>
+	<p>No schools found.</p>
+</ng-template>

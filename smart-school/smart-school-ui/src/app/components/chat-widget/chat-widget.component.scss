@@ -1,0 +1,36 @@
+.chat-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1001;
+}
+
+.chat-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+  width: 320px;
+  z-index: 1000;
+}
+
+.chat-card {
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+}
+
+.messages {
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.chat-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.chat-input { flex: 1; }
+
+.user { text-align: right; font-weight: 600; }
+.assistant { text-align: left; color: rgba(0,0,0,0.87); }

@@ -1,9 +1,0 @@
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/StudentServiceApplication.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/dto/StudentDTO.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/controller/StudentController.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/web/GlobalExceptionHandler.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/service/StudentService.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/client/SchoolClient.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/client/SchoolRemoteDTO.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/model/Student.java
-/home/harish/Documents/ai-workspace/smart-school/student-service/src/main/java/com/smartschool/student/repository/StudentRepository.java
